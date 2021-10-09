@@ -3,6 +3,7 @@
 App::App() {
 	arr = new int;
 	size = 0;
+
 	
 }
 
