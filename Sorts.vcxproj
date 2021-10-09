@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\App.cpp" />
     <ClCompile Include="src\ArrayHandle.cpp" />
     <ClCompile Include="src\BubbleSort.cpp" />
     <ClCompile Include="src\Main.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="src\Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\App.h" />
     <ClInclude Include="src\ArrayHandle.h" />
     <ClInclude Include="src\BubbleSort.h" />
     <ClInclude Include="src\SelectionSort.h" />
