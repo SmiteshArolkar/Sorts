@@ -9,7 +9,7 @@ App::App() {
 
 App::~App()
 {
-	TerminateApp();
+	
 }
 
 void App::run()

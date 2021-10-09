@@ -5,9 +5,10 @@ class App
 public:
 	App();
 	~App();
-	void run();
-private:
+	void run(); 
 	void TerminateApp();
+private:
+	
 	void GetArraySize();
 	ArrayHr Array;
 	Sort sort;
