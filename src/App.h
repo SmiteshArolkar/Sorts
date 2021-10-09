@@ -4,8 +4,10 @@ class App
 {
 public:
 	App();
+	~App();
 	void run();
 private:
+	void TerminateApp();
 	void GetArraySize();
 	ArrayHr Array;
 	Sort sort;

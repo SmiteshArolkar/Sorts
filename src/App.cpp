@@ -7,6 +7,11 @@ App::App() {
 	
 }
 
+App::~App()
+{
+	TerminateApp();
+}
+
 void App::run()
 {
 	std::cout << "\t\tWELOME TO THIS NOT SO AMAZING PROGRAM :D\n";
@@ -34,6 +39,11 @@ void App::run()
 
 	} while (choice);
 
+}
+
+void App::TerminateApp()
+{
+	free(arr);
 }
 
 void App::GetArraySize()
